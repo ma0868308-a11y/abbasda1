@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammad Abbas | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f172a, #020617);
+      color: #e2e8f0;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: rgba(30, 41, 59, 0.8);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      color: #38bdf8;
+    }
+
+    header p {
+      margin: 10px 0;
+      font-weight: 300;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #e2e8f0;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: rgba(30, 41, 59, 0.7);
+      padding: 25px;
+      margin: 20px 0;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+    }
+
+    h2 {
+      color: #38bdf8;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(30, 41, 59, 0.8);
+      margin-top: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #38bdf8;
+      color: #020617;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #0ea5e9;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Mohammad Abbas</h1>
+  <p>BTech CSE Student | Tech Enthusiast | Future Developer</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <div class="card">
+    <h2>About Me</h2>
+    <p>I am Mohammad Abbas, a Computer Science student at VIT Vellore. I am passionate about technology, programming, and game development. I enjoy building real-world projects and continuously learning new skills.</p>
+  </div>
+</section>
+
+<section id="education">
+  <div class="card">
+    <h2>Education</h2>
+    <p><strong>BTech in Computer Science Engineering</strong></p>
+    <p>VIT Vellore (2024 - 2028)</p>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="card">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python</li>
+      <li>C Programming</li>
+      <li>Data Structures & Algorithms</li>
+      <li>HTML & CSS</li>
+      <li>Problem Solving</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="card">
+    <h2>Projects</h2>
+    <ul>
+      <li>Blink-to-Speak Assistive Device</li>
+      <li>Graph Traversal Simulator (BFS & DFS)</li>
+      <li>Automated Toll Collection System</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="card">
+    <h2>Contact</h2>
+    <p>Email: your.email@example.com</p>
+    <p>GitHub: github.com/yourusername</p>
+    <a href="#" class="btn">Download Resume</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Mohammad Abbas | Portfolio</p>
+</footer>
+
+</body>
+</html>
